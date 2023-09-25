@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: rgb(224 242 254);
+    
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    height: 40px;
+    background-color: rgb(148 163 184);
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 20px; 
+    position: relative;
+    left: 500px;
+}
+
+.section-home{
+    background-color: rgb(120 113 108);
+    padding-top: 50px;
+    height: 300px;
+    margin-bottom: 30px;                                   
+}  
+
+.section-about{
+    background-color: aquamarine;
+    padding-top: 50px;
+    height: 270px;
+    margin-bottom: 20px; 
+}
+
+.section-resume{
+    background-color: rgb(220 38 38);
+    padding-top: 50px;
+    height: 450px;
+    margin-bottom: 20px; 
+}
+
+.section-contact{
+    background-color: rgb(251 146 60);
+    padding-top: 70px;
+    height: 450px;
+    margin-bottom: 20px; 
+}
+
+footer{
+    background-color: beige;
+    position: relative;
+}
+#video{
+    position: relative;
+    left: 500px;
+    height: 200px;
+}
+
+form{
+    position: relative;
+    left: 550px;
+}
+
+label{
+    width: 50px;
+    margin-left: 10px;
+    color: black;
+}
+
+input:hover{
+    background-color: aquamarine;
+}
+
+input{
+    display: flex;
+    width: 300px;
+    margin: 10px;
+    border: none;
+}
+
+.contact-header{
+    color: antiquewhite;
+    margin-left: 100px;
+}
